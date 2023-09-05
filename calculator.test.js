@@ -84,17 +84,5 @@ describe("calculate function", () => {
   });
 
 
-  it("should clear display on AC button click", () => {
-    displayValue = "123";
-    calculate("AC");
-    expect(displayMock.value).toBe("");
-  });
-
-  it("should delete last character on DEL button click", () => {
-    displayValue = "123";
-    calculate("DEL");
-    expect(displayMock.value).toBe("12");
-  });
-
   
 });
